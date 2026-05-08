@@ -1,58 +1,58 @@
-# Proyecto-final-Programacion-II-
+# Polycystic Ovary Syndrome System
 
-**DESCRIPCIÓN:**  
-El problema del Síndrome de Ovario Poliquístico (SOP) es adecuado para resolverse mediante Programación Orientada a Objetos (POO) porque involucra diferentes tipos de datos y procesos que pueden organizarse en clases con responsabilidades claras. La POO permite estructurar el programa de forma modular, reutilizable y fácil de mantener, lo que facilita el análisis y la predicción de la probabilidad de que una mujer presente SOP.
-El presente programa tiene como finalidad desarrollar una herramienta capaz de realizar una predicción aproximada de la probabilidad de que una mujer presente o no el Síndrome de Ovario Poliquístico (SOP), a partir del análisis de determinados datos proporcionados por el usuario. Asimismo, busca generar y mostrar estadísticas representativas de los registros recopilados, permitiendo identificar posibles patrones, tendencias y factores asociados a esta condición.
+**DESCRIPTION:**  
+The Polycystic Ovary Syndrome (PCOS) problem is well-suited for solving using Object-Oriented Programming (OOP), as it involves different types of data and processes that can be organized into classes. OOP allows structuring the program in a modular, reusable, and easy-to-maintain project, which facilitates the analysis and prediction of the probability of a woman having PCOS.
+The purpose of this program is to develop a tool capable of making an approximate prediction of the probability that a woman has PCOS, based on the analysis of certain data provided by the user. It also aims to generate and display representative statistics from the collected records, allowing for the identification of possible patterns, trends, and factors associated with its condition.
   
 <br/>
 <br/>
     
-**USO:**  
-El programa permite analizar datos hormonales y características clínicas de una paciente para estimar la probabilidad de que presente Síndrome de Ovario Poliquístico (SOP). Para utilizar el sistema, el usuario ingresa o carga información clave como edad, niveles hormonales (LH, FSH, AMH, TSH, PRL) Y medidas clínicas.
-El flujo de uso consiste en ingresar los datos, almacenarlos y ejecutar los métodos de comparación y predicción para obtener análisis clínicos útiles sobre la probabilidad de SOP.
+**USE:**  
+The program allows to analyze hormonal data and clinical characteristics of a patient to estimate the probability of having Polycystic Ovary Syndrome (PCOS). To use the system, the user enters or loads key information such as age, hormone levels (LH, FSH, AMH, TSH, PRL), and clinical measurements.
+The workflow consists of entering the data, storing it, and running the comparison and prediction methods to obtain useful clinical analyses regarding the probability of PCOS.
 
 <br/>
 
-El usuario puede realizar lo siguiente:
-1. Registrar nuevas pacientes creando objetos de la clase Paciente.
-	- Ingresar al numero de selección (1).
-    - Ingresar los datos de la paciente.
-    - Esperar el mensaje de confirmación de que la paciente fue agregada correctamente.
+The user can do the following:
+1. Register new patients by creating objects of the Paciente class:
+	- Enter the selection number (1).
+    - Enter the patient's data.
+    - Wait for the confirmation message that the patient was added successfully.
 
  <br/>
  
-2. Guardar los registros dentro de BaseDatosPacientes, que funciona como la base de datos del sistema. De aqui, se presentan dos opciones:
-	- Filtrar:
-		- Ingresar al numero de selección (2).
-		- Ingresar el nombre de la paciente que se busca.
-		- Esperar la impresión de los datos.
+2. Save the records in BaseDatosPacientes, which functions as the system's database. From here, two options are presented:
+	- Filter:
+		- Enter the selection number (2).
+		- Enter the name of the patient being searched for.
+		- Wait for the data to be printed.
 
-	- Eliminar:
-		- Ingresar al numero de selección (3).
-		- Ingresar el nombre de la paciente que se quiere eliminar.
-		- Esperar el mensaje de confirmación de que la paciente fue eliminada correctamente.
-
-<br/>
-
-3. Aplicar el método de predicción contenido en la subclase PacienteSOP para obtener una probabilidad aproximada de SOP.
-	- Ingresar el numero de selección (4).
-	- Ingresar el nombre de la paciente.
-	- Esperar los resultados de si existe probabilidad de padecer SOP o no.
+	- Delete:
+		- Enter the selection number (3).
+		- Enter the name of the patient to be deleted.
+		- Wait for the confirmation message that the patient was successfully deleted.
 
 <br/>
 
-4. Generar estadísticas hormonales que permiten identificar diferencias entre los grupos analizados.
-	- Ingresar el numero de selección (5).
-	- Seleccionar que grupo se quiere analizar:
-		- Grupo con SOP:
-			- Ingresar el numero de selección (1).
-			- Esperar los resultados de la cantidad de pacientes con SOP.
+3. Apply the prediction method contained in the PacienteSOP subclass to obtain an approximate probability of PCOS:
+	- Enter the selection number (4).
+	- Enter the patient's name.
+	- Wait for the results indicating whether or not there is a probability of having PCOS.
 
-		- Grupo sin SOP:
-			- Ingresar el numero de selección (2).
-			- Esperar los resultados de la cantidad de pacientes sin SOP.
+<br/>
+
+4. Generate hormonal statistics to identify differences between the analyzed groups:
+	- Enter the selection number (5).
+	- Select the group to analyze:
+		- Group with PCOS:
+			- Enter the selection number (1).
+			- Wait for the results showing the number of patients with PCOS.
+
+		- Group without PCOS:
+			- Enter the selection number (2).
+			- Wait for the results showing the number of patients without PCOS.
 
 <br/>
 
 
-*Ingresar el numero de selección (6) para salir del programa.*
+*Enter the selection number (6) to exit the program.*
